@@ -103,15 +103,12 @@ const displayRamens = () => {
 }
 
 const main = () => {
-  // Invoke displayRamens here
-  // Invoke addSubmitListener here
   displayRamens()
   addSubmitListener()
 }
 
 document.addEventListener('DOMContentLoaded', main)
 
-// Export functions for testing
 export {
   displayRamens,
   addSubmitListener,
